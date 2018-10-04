@@ -4,6 +4,8 @@
 This docker image runs QEMU system emulation for Raspbian Stretch Lite. 
 It will let you run Raspbian as if it was running on an actual Raspberry PI. 
 
+## Usage
+
 SSH is enabled on port `2222`. The username is `pi` and the password is `raspberry`. 
 
 To run the container:
