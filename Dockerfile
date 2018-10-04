@@ -28,7 +28,7 @@ RUN set -x \
     && curl https://raw.githubusercontent.com/dhruvvyas90/qemu-rpi-kernel/$RPI_QEMU_KERNEL_COMMIT/$RPI_QEMU_KERNEL > kernel-qemu-stretch \
     && curl -O https://raw.githubusercontent.com/dhruvvyas90/qemu-rpi-kernel/$RPI_QEMU_KERNEL_COMMIT/versatile-pb.dtb
 
-# Convert kernel to qcow2, resize it and enable SSH
+# Convert image to qcow2, resize it and enable SSH
 RUN set -x \
     && qemu-img convert -f raw -O qcow2 $RASPBIAN_IMAGE.img raspbian-lite.qcow2 \
     && rm $RASPBIAN_IMAGE.img \
