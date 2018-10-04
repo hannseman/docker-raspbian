@@ -1,7 +1,7 @@
 
 # docker-raspbian
 
-![Docker Build Status](https://img.shields.io/docker/build/hannseman/raspbian.svg)
+[![Docker Build Status](https://img.shields.io/docker/build/hannseman/raspbian.svg)](https://hub.docker.com/r/hannseman/raspbian/)
 
 This docker image runs QEMU system emulation for Raspbian Stretch Lite. 
 It will let you run Raspbian as if it was running on an actual Raspberry PI. 
